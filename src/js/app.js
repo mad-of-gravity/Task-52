@@ -8,7 +8,7 @@ window.addEventListener("DOMContentLoaded", () => {
     //A for loop that initializes the article element and adds it to the body
     for (let i = 0; i < 5; i++) {
       article = document.createElement("article");
-      article.classList.add(".message");
+      article.classList.add("message");
       article.textContent = `Message ${i}`;
       document.body.appendChild(article);
      }
